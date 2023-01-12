@@ -1,7 +1,11 @@
 <html>
  <head>
+     <link rel="stylesheet" href="./<index.css"/>
+    
  </head>
+ 
  <body>
+      
     <div id="app">
 
   <div lang="en">
@@ -156,7 +160,38 @@
                 <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2021/11/nic-cage-trapped-in-paradise.jpg" alt="TIP" width="460" height="345">
 
               </body>
-
+                <script>
+             function newCall(){
+   
+    alert("Hi!")
+    document.write("Hi!");
+  
+}
+function setDay1(event,a) {
+        e=event.target;
+        e.innerHTML = a;
+        var div = document.getElementById('here');
+        var text = div.innerHTML;
+        div.innerHTML = text + " Once bought a pyramid tomb" + a; 
+    }
+    
+function setDay2(event,b) {
+        e=event.target;
+        e.innerHTML = b;
+        var div = document.getElementById('here');
+        var text = div.innerHTML;
+        div.innerHTML = text + "Once slept in Draculas Castle " + b; 
+    }
+function setDay3(event,c) {
+        e=event.target;
+        e.innerHTML = c;
+        var div = document.getElementById('here');
+        var text = div.innerHTML;
+        div.innerHTML = text + "Once tripped out on mushrooms with his cat " + c;
+    }
+       </script>
+             
+           
             </html>
 
           </p>
